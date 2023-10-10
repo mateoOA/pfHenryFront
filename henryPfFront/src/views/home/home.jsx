@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./Inicio.module.css";
+import styles from "./home.module.css";
 
 function Inicio() {
   return (
