@@ -1,9 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mediumslateblue: "#7f56d9",
+        white: "#fff",
+      },
+      spacing: {},
+      fontFamily: {
+        anton: "Anton",
+        antic: "Antic",
+      },
+    },
+    fontSize: {
+      "5xl": "24px",
+      inherit: "inherit",
+    },
   },
-  plugins: [],
-}
-
+  corePlugins: {
+    preflight: false,
+  },
+};
