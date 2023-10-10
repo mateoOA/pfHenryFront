@@ -1,16 +1,16 @@
-import React from 'react';
+/* import React from 'react'; */
 import './App.css'
-import {Route, Routes, useLocation, useNavigate} from "react-router-dom"
+import {Route, Routes, /* useLocation, useNavigate */} from "react-router-dom"
 import Inicio from './views/home/home.jsx'
 import Landing from './views/landing/landing.jsx'
 /* import Landing from './' */
 // import Productos from './barra/Productos/Productos';
 // import Nosotros from './barra/Nosotros/Nosotros';
 // import MiCuenta from './barra/MiCuenta/MiCuenta';
-import NavBar from './components/NavBar/NavBar';
+/* import NavBar from './components/NavBar/NavBar'; */
 
 function App() {
-const {pathname} = useLocation();
+/* const {pathname} = useLocation(); */
   return (  
     <div>
       {/* {pathname !== "/" && <NavBar/>} */}
