@@ -19,4 +19,4 @@ const {pathname} = useLocation();
             <NavLink className={style.logButton} to="/"><button >LogOut</button></NavLink>
         </div>
     )
-};
+}
